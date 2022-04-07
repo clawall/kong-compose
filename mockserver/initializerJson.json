@@ -1,0 +1,35 @@
+[
+    {
+      "httpRequest": {
+        "path": "/teste"
+      },
+      "httpResponse": {
+        "statusCode": 200,
+        "body": {
+          "value": "one"
+        }
+      }
+    },
+    {
+      "httpRequest": {
+        "path": "/metrics"
+      },
+      "httpResponse": {
+        "statusCode": 200,
+        "body": {
+          "value": "I'm the one who knocks."
+        }
+      }
+    },
+    {
+      "httpRequest": {
+        "path": "/health"
+      },
+      "httpResponse": {
+        "statusCode": 200,
+        "body": {
+          "status": "UP"
+        }
+      }
+    }
+  ]
