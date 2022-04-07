@@ -10,4 +10,4 @@ Just run `docker-compose up`.  The services will be exposed as:
 
 - Kong:  http://localhost:8000/
 - Konga:  http://localhost:1337/
-- Mock Server:  Unreacheable from the host, it must be reached via Kong at http://localhost:8000/
+- Mock Server:  Unreacheable from the host, it must be reached via Kong at http://localhost:8000/auto-web-bff
